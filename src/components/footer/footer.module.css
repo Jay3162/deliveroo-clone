@@ -1,0 +1,73 @@
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(49, 49, 49);
+
+}
+
+.tab-set {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: start;
+
+}
+
+.column {
+    color: white;
+    background-color: rgb(70, 70, 70);
+    border-radius: 2px;
+    height: 34vh;
+    width: 10vw;
+    padding-top: 0.5vh;
+}
+
+.tab {
+    margin-left: 1vw;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    
+}
+
+.socials {
+    display: flex;
+    margin-left: 3vw;
+}
+
+.copyright {
+    color: rgb(175, 175, 175);
+    margin-right: 2vw;
+}
+
+.app-store-btn {
+    border: 1px solid white;
+    font-size: 0.8vw;
+    padding: 4%;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    
+}
+
+.play-store-btn {
+    border: 1px solid white;
+    font-size: 0.8vw;
+    padding: 4%;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}

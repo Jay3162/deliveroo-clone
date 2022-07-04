@@ -1,0 +1,21 @@
+form {
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+}
+
+.bar {
+    border-radius: 40px;
+    border-style: none;
+    padding: 3vh 8vw;
+    border: none;
+    flex-grow: 2;
+}
+
+.search-btn {
+    border-radius: 40px;
+    border-style: none;
+    padding: 3vh 4vw;
+    background-color: rgb(2, 190, 190);
+    margin-left: -10vw;    
+}

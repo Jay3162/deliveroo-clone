@@ -1,0 +1,145 @@
+.container {
+    display: flex;
+
+    margin: auto;
+    flex-direction: column;
+    
+}
+.bgimg {
+    display: flex;
+    height: 50vh;
+    width: auto;
+    background-image: url('/src/images/louis-hansel-V4PiMv9EcJI-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+.bar-login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+a {
+    color: rgb(2, 190, 190);
+}
+
+.track-tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 5%;
+}
+
+.track-tab-inner {
+    width: 25vw;
+    margin-top: 15vh;
+}
+
+.tab-map-img {
+    background-image: url('/src/images/geojango-maps-Z8UgB80_46w-unsplash.jpg');
+    width: 50vw;
+    height: 20vh;
+    background-position: 20px;
+    background-repeat: no-repeat;
+    margin-top: 15vh;
+}
+
+.deal-tab {
+    display: flex;
+    width: auto;
+    height: 30vh;
+    flex-direction: column;
+    background-color: rgb(2, 190, 190);
+    color: white;
+}
+
+.deal-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tab {
+    background-image: url('/src/images/austin-ban-IS6RwpuEJpY-unsplash.jpg');
+    background-repeat: no-repeat;
+    height: 40vh;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 2%;
+}
+
+.tab1 {
+    background-image: url('/src/images/carl-campbell-NHv_7hIxJWQ-unsplash.jpg');
+    background-repeat: no-repeat;
+    height: 40vh;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 2%;
+}
+
+.tab2 {
+    background-image: url('/src/images/ambitious-creative-co-rick-barrett-VJgIWZY7VC0-unsplash.jpg');
+    background-repeat: no-repeat;
+    height: 40vh;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 2%;
+}
+
+.tab3 {
+    background-image: url('/src/images/adam-winger-b1wqPO2qKUY-unsplash.jpg');
+    background-repeat: no-repeat;
+    height: 40vh;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 2%;
+}
+
+.tab-inner {
+    flex-direction: column;
+    display: flex;
+    width: 30vw;
+  
+    margin-top: 11em;
+    margin-left: 1em;
+    align-items: flex-start;
+    color: white;
+}
+
+.start-btn {
+    padding: 3% 8%;
+    border-radius: 10px;
+    border: none;
+}
+
+.app-store-btn {
+    border: 1px solid white;
+    font-size: 0.8vw;
+    padding: 4%;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    
+}
+
+.play-store-btn {
+    border: 1px solid white;
+    font-size: 0.8vw;
+    padding: 4%;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}

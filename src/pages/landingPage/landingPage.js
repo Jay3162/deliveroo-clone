@@ -4,11 +4,13 @@ import SearchBar from '../../components/searchBar/searchBar'
 import {WiStars} from 'react-icons/wi'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import Footer from '../../components/footer/footer'
+import NavBar from '../../components/navbar/navbar'
 
 export default function LandingPage() {
     return (
         <div className={style["container"]}>
             <div className={style["bgimg"]}>
+                <NavBar/>
                 <h2>Restaurant food, takeaway and groceries. Delivered.</h2>
                 <div>
                     <p>Enter a postcode to see what we deliver</p>

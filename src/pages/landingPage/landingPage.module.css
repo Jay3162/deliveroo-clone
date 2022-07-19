@@ -28,6 +28,19 @@ a {
     color: rgb(2, 190, 190);
 }
 
+.bg-title {
+    width: 25vw;
+}
+
+.banner-title {
+    font-size: 1.5vw;
+}
+
+.banner-title-blue {
+    font-size: 1.5vw;
+    color: rgb(2, 190, 190);
+}
+
 .track-tab {
     display: flex;
     align-items: center;

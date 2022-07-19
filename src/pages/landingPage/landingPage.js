@@ -11,7 +11,9 @@ export default function LandingPage() {
         <div className={style["container"]}>
             <div className={style["bgimg"]}>
                 <NavBar/>
-                <h2>Restaurant food, takeaway and groceries. Delivered.</h2>
+                <div className={style["bg-title"]}>
+                    <h1 className={style["banner-title"]}>Restaurant food, takeaway and <h1 className={style["banner-title-blue"]}>groceries. Delivered.</h1></h1>
+                </div>
                 <div>
                     <p>Enter a postcode to see what we deliver</p>
                 </div>

@@ -54,20 +54,23 @@ export default function NavBar(props) {
                 <button className={style["nav-btn"]}><AiOutlineHome className={style["icon-color"]}/>Sign up or log in</button>
 
                 <button className={style["nav-btn"]} onClick={() => setMenuOn(!menuOn)}><MenuList/><MdMenu className={style["icon-color"]}/>Menu</button>
-                {menuOn ? <div>
-                    <SideList className={style["partner-opts"]}>
-                        <div className={style["sidemenu"]}>
-                        <img className={style["icon"]} src={deliveroo}/>
-                        deliveroo
-                        <button className={style["close-btn"]} onClick={() => setMenuOn(!menuOn)}>&times;</button>
+                {menuOn ? <div >
+                    <SideList >
+                        <div className={style["menu-opts"]}>
+                            <div className={style["sidemenu"]}>
+                                <img className={style["icon"]} src={deliveroo}/>
+                                deliveroo
+                                <button className={style["close-btn"]} onClick={() => setMenuOn(!menuOn)}>&times;</button>
+                            </div>
+                            <hr></hr>
+                            <button className={style["sign-in"]}>Sign up or log in</button>
+                            <div className={style["faqs"]}>
+                                ? FAQs
+                            </div>
+                            <button className={style["language"]}>English</button>
+                            <button className={style["region"]}>United Kingdom</button>
                         </div>
-                        <hr></hr>
-                        <button className={style["sign-in"]}>Sign up or log in</button>
-                        <div className={style["faqs"]}>
-                            ? FAQs
-                        </div>
-                        <button className={style["language"]}>English</button>
-                        <button className={style["region"]}>United Kingdom</button>
+                        
                     </SideList>
                 </div> : <div></div>}
             </div>
